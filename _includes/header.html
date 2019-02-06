@@ -11,6 +11,10 @@
     <h3>{{ site.description }}</h3>
 
         <ul>
+            {% if site.about_me %}
+            <li><a class="fa fa-2x fa-user" href="https://{{ site.about_me }}"><span class="description">about me</span></a></li>
+            {% endif %}
+            
             {% if site.github_username %}
             <li><a class="fa fa-2x fa-github" href="https://github.com/{{ site.github_username }}"><span class="description">GitHub</span></a></li>
             {% endif %}
@@ -83,6 +87,10 @@
             <li><a class="fa fa-2x fa-tags" href="{{ site.baseurl }}{{ site.blog_url }}"><span class="description">Blog</span></a></li>
             {% endif %}
 
+            {% if site.xmpp_address %}
+            <li><a class="fa fa-2x fa-comments" href="mailto:{{ site.xmpp_address }}"><span class="description">XMPP</span></a></li>
+            {% endif %}
+            
             {% if site.email %}
             <li><a class="fa fa-2x fa-envelope" href="mailto:{{ site.email }}"><span class="description">Email</span></a></li>
             {% endif %}
