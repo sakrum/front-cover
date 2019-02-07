@@ -31,6 +31,7 @@ mastodon_rel_me: "muenchen.social/@markus"
 conversations_invite: "markus@sakrum.de?omemo-sid-361017107=2fae86cd82f93bbd0ba41854682a86e7e43eb7dbd9de65bc1d03b0d3d8520e73&omemo-sid-1351905126=298633cd8397cd70bcfc757d8fe0235566335d60a458fee78149c28c16e6ff17&omemo-sid-1680524461=7d6e190ad0b6c10ab93d0a78c5cc274b9836f4aef1c741419f1c0cf3549fc779"
 public_key_url: "https://sakrum.de/0bfa9786.asc"
 favicon: "favicon.ico"
+email_unCryptMail: "javascript:linkTo_UnCryptMailto('nbjmup;uftuAnbjm/dpn');"
 
 avatar: yes
 avatar_img_path: "imgs/EGO2_400x400.jpg"
