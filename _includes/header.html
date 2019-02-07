@@ -102,6 +102,10 @@
             {% if site.email %}
             <li><a class="fa fa-2x fa-envelope" href="mailto:{{ site.email }}"><span class="description">Email</span></a></li>
             {% endif %}
+            
+            {% if site.email_unCryptMail %}
+            <li><a class="fa fa-2x fa-envelope" href="{{ site.email_unCryptMail }}"><span class="description">Email</span></a></li>
+            {% endif %}
 
             {% if site.public_key_url %}
             <li><a class="fa fa-2x fa-key" href="{{ site.public_key_url }}"><span class="description">PGP Key</span></a></li>
