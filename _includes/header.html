@@ -16,7 +16,7 @@
             {% endif %}
             
             {% if site.conversations_invite %}
-            <li><a class="fas fa-2x fa-comments" href="https://conversations.im/i/{{ site.conversations_invite }}"><span class="description">Messenger</span></a></li>
+            <li><a class="fab fa-2x fa-whatsapp" href="https://conversations.im/i/{{ site.conversations_invite }}"><span class="description">Messenger</span></a></li>
             {% endif %}
             
             {% if site.github_username %}
@@ -40,7 +40,7 @@
             {% endif %}
             
             {% if site.mastodon_rel_me %}
-            <li><a class="fab fa-2x fa-mastodon" href="https://{{ site.mastodon_rel_me }}"><span class="description">Mastodon</span></a></li>
+            <li><a class="fab fa-2x fa-mastodon" rel="me" href="https://{{ site.mastodon_rel_me }}"><span class="description">Mastodon</span></a></li>
             {% endif %}
 
             {% if site.google_plus_username %}
