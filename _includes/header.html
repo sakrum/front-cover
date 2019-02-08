@@ -12,11 +12,11 @@
 
         <ul>
             {% if site.about_me %}
-            <li><a class="fa fa-2x fa-user" href="https://{{ site.about_me }}"><span class="description">about me</span></a></li>
+            <li><a class="fas fa-2x fa-user" href="https://{{ site.about_me }}"><span class="description">about me</span></a></li>
             {% endif %}
             
             {% if site.conversations_invite %}
-            <li><a class="fa fa-2x fa-comments" href="https://conversations.im/i/{{ site.conversations_invite }}"><span class="description">Messenger</span></a></li>
+            <li><a class="fas fa-2x fa-comments" href="https://conversations.im/i/{{ site.conversations_invite }}"><span class="description">Messenger</span></a></li>
             {% endif %}
             
             {% if site.github_username %}
@@ -24,7 +24,7 @@
             {% endif %}
 
             {% if site.codepen_username %}
-            <li><a class="fa fa-2x fa-codepen" href="https://codepen.io/{{ site.codepen_username }}"><span class="description">CodePen</span></a></li>
+            <li><a class="fab fa-2x fa-codepen" href="https://codepen.io/{{ site.codepen_username }}"><span class="description">CodePen</span></a></li>
             {% endif %}
 
             {% if site.facebook_username %}
@@ -40,7 +40,7 @@
             {% endif %}
             
             {% if site.mastodon_rel_me %}
-            <li><a rel="me" class="fab fa-3x fa-mastodon" href="https://{{ site.mastodon_rel_me }}"><span class="description">Mastodon</span></a></li>
+            <li><a rel="me" class="fab fa-2x fa-mastodon" href="https://{{ site.mastodon_rel_me }}"><span class="description">Mastodon</span></a></li>
             {% endif %}
 
             {% if site.google_plus_username %}
@@ -92,11 +92,11 @@
             {% endif %}
 
             {% if site.blog_url %}
-            <li><a class="fa fa-2x fa-tags" href="{{ site.baseurl }}{{ site.blog_url }}"><span class="description">Blog</span></a></li>
+            <li><a class="fas fa-2x fa-tags" href="{{ site.baseurl }}{{ site.blog_url }}"><span class="description">Blog</span></a></li>
             {% endif %}
 
             {% if site.xmpp_address %}
-            <li><a class="fa fa-2x fa-comments" href="xmpp:{{ site.xmpp_address }}"><span class="description">XMPP</span></a></li>
+            <li><a class="fas fa-2x fa-comments" href="xmpp:{{ site.xmpp_address }}"><span class="description">XMPP</span></a></li>
             {% endif %}
             
             {% if site.email %}
@@ -104,11 +104,11 @@
             {% endif %}
             
             {% if site.email_unCryptMail %}
-            <li><a class="fa fa-2x fa-envelope" href="{{ site.email_unCryptMail }}"><span class="description">Email</span></a></li>
+            <li><a class="fas fa-2x fa-envelope" href="{{ site.email_unCryptMail }}"><span class="description">Email</span></a></li>
             {% endif %}
 
             {% if site.public_key_url %}
-            <li><a class="fa fa-2x fa-key" href="{{ site.public_key_url }}"><span class="description">PGP Key</span></a></li>
+            <li><a class="fas fa-2x fa-key" href="{{ site.public_key_url }}"><span class="description">PGP Key</span></a></li>
             {% endif %}
         </ul>
 </div>
