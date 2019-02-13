@@ -31,6 +31,10 @@
     },
     {
       "rel": "http://ostatus.org/schema/1.0/subscribe"
+    },
+    {
+      "rel": "http://webfinger.net/rel/profile-page",
+      "href": "https://credo.sakrum.de"
     }
   ]
 }
