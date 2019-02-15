@@ -22,6 +22,10 @@
       "href": "https://muenchen.social/users/markus.atom"
     },
     {
+       "rel": "http://openid.net/specs/connect/1.0/issuer",
+       "href": "https://www.google.com/accounts/o8/id"
+    },
+    {
       "rel": "self",
       "type": "application/activity+json",
       "href": "https://muenchen.social/users/markus"
