@@ -3,6 +3,9 @@ name: Markus
 description: "@sakrum.de"
 url: ""
 
+plugins:
+ - jekyll-redirect-from
+
 
 # Delete the lines you don't need
 # about 7 elements are recomended
