@@ -1,10 +1,5 @@
 {
   "subject": "acct:markus@sakrum.de",
-  "aliases": [
-    "markus@muenchen.social",
-    "https://muenchen.social/@markus",
-    "https://muenchen.social/users/markus"
-  ],
   "links": [
     {
       "rel": "http://webfinger.net/rel/profile-page",
@@ -16,30 +11,5 @@
       "type": "image/jpeg",
       "href": "http://sakrum.de/imgs/avatar.jpg"
     },
-    {
-      "rel": "http://schemas.google.com/g/2010#updates-from",
-      "type": "application/atom+xml",
-      "href": "https://muenchen.social/users/markus.atom"
-    },
-    {
-       "rel": "http://openid.net/specs/connect/1.0/issuer",
-       "href": "https://www.google.com/accounts/o8/id"
-    },
-    {
-      "rel": "self",
-      "type": "application/activity+json",
-      "href": "https://muenchen.social/users/markus"
-    },
-    {
-      "rel": "salmon",
-      "href": "https://muenchen.social/api/salmon/17472"
-    },
-    {
-      "rel": "magic-public-key",
-      "href": "data:application/magic-public-key,RSA.t8J36dAh1h6fqLststS4xVCL3bbRp0A9UumcU8H_Tfmbo8VgJsLjdnqHnAaeqs1amFcYNBAo_G5M8SjiG36ZBbo5IAWqSRxjy3XbtKCaiaqigiwVdwIfK7_BPiz7YtXlB6D_KSREbOC-vHPZgqJkRr-5rymR0ZQnGoT4kyr4iKTzqoiK1UP4ccqssvngk_fY2IWxK20mdeXiJfevhtvrx0dpX8VLcj61RC6xiOQPbWcpTyE_mJT6RuOYcfCncRKlxhaf3k6lMmYtfUBtwMTPPSH_4y3OP2T4e359Ej4c-FEOTpjlcQ6PzfEKRg9_IBdYTe05GjYJtbDZ9QQ81iNO0Q==.AQAB"
-    },
-    {
-      "rel": "http://ostatus.org/schema/1.0/subscribe"
-    }
   ]
 }
