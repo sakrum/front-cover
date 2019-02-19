@@ -1,5 +1,9 @@
 {
   "subject": "acct:markus@sakrum.de",
+   "aliases": [
+    "https://muenchen.social/@markus",
+    "https://muenchen.social/users/markus"
+  ],
   "links": [
     {
       "rel": "http://webfinger.net/rel/profile-page",
