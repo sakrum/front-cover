@@ -12,9 +12,17 @@
 
         <ul>
             {% if site.about_me %}
-            <li><a class="fa fa-2x fa-user" href="https://{{ site.about_me }}"><span class="description">about me</span></a></li>
+            <li><a class="fas fa-2x fa-user-tag" href="https://{{ site.about_me }}"><span class="description">about me</span></a></li>
+            {% endif %}
+          
+            {% if site.ego %}
+            <li><a class="fa fa-2x fa-user" href="https://{{ site.ego }}"><span class="description">Ego</span></a></li>
             {% endif %}
             
+            {% if site.credo %}
+            <li><a class="fas fa-2x fa-cross" href="https://{{ site.credo }}"><span class="description">Credo</span></a></li>
+            {% endif %}
+           
             {% if site.conversations_invite %}
             <li><a class="fa fa-2x fa-comments" href="https://conversations.im/i/{{ site.conversations_invite }}"><span class="description">Messenger</span></a></li>
             {% endif %}
