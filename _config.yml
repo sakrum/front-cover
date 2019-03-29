@@ -27,9 +27,9 @@ plugins:
 #tumblr_username: your_tumblr_username_goes_here
 #weibo_username: your_weibo_username_goes_here
 #blog_url: "/blog"
-#about_me: "credo.sakrum.de"
-credo: "credo.sakrum.de"
-ego: "sakrum.de"
+about_me: "credo.sakrum.de"
+#credo: "credo.sakrum.de"
+#ego: "sakrum.de"
 #email: markus@sakrum.de
 mastodon_rel_me: "muenchen.social/@markus"
 #xmpp_address: markus@sakrum.de
